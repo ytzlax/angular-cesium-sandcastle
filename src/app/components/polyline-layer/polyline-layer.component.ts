@@ -26,13 +26,13 @@ export class PolylineLayerComponent implements OnInit {
       {
         id: '1',
         entity: new AcEntity({
-          material: Cesium.Color.BLUE.withAlpha(0.5),
+          material: Cesium.Color.GREEN,
           height: 0,
           outline: true,
           width: 20,
           positions: Cesium.Cartesian3.fromDegreesArrayHeights([
-            -120.0, 37.0,10000,
-            -120.0, 32.0,10000
+            -120.0, 37.0, 100,
+            -120.0, 32.0, 100
           ])
         }
         ),

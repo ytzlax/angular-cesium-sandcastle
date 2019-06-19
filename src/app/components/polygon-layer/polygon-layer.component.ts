@@ -27,7 +27,7 @@ export class PolygonLayerComponent implements OnInit {
         -102.0, 31.0,
         -102.0, 35.0]),
       outline: true,
-      outlineColor: Cesium.Color.BLUE,
+      outlineColor: Cesium.Color.YELLOW,
       fill: true,
       perPositionHeight: true,
       material: Cesium.Color.TRANSPARENT,
@@ -40,7 +40,7 @@ export class PolygonLayerComponent implements OnInit {
         -104.0, 40.0,
       ]),
       outline: true,
-      outlineColor: Cesium.Color.BLUE,
+      outlineColor: Cesium.Color.GREEN,
       fill: true,
       perPositionHeight: true,
       material: Cesium.Color.TRANSPARENT,
@@ -50,10 +50,10 @@ export class PolygonLayerComponent implements OnInit {
       {
         id: '0',
         entity: new AcEntity({
-          hierarchy: Cesium.Cartesian3.fromDegreesArrayHeights([-108.0, 25.0, 100000,
-          -100.0, 25.0, 100000,
-          -100.0, 30.0, 100000,
-          -108.0, 30.0, 300000]),
+          hierarchy: Cesium.Cartesian3.fromDegreesArrayHeights([-108.0, 25.0, 100,
+          -100.0, 25.0, 100,
+          -100.0, 30.0, 100,
+          -108.0, 30.0, 100]),
           extrudedHeight: 0,
           perPositionHeight: true,
           material: Cesium.Color.ORANGE.withAlpha(0.5),
@@ -95,7 +95,7 @@ export class PolygonLayerComponent implements OnInit {
               }]
             }]
           },
-          material: Cesium.Color.BLUE.withAlpha(0.5),
+          material: Cesium.Color.BLACK.withAlpha(0.5),
           height: 0,
           outline: true
         }
