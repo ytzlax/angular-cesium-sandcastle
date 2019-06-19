@@ -24,8 +24,9 @@ export class PlaneLayerComponent implements OnInit {
           // image: "/assets/GitHub-Mark-Light.png",
           image: "/assets/fighter-jet.png",
           scale: 0.1,
-          position: Cesium.Cartesian3.fromDegrees(-115.0, 37.0, 10),
-          color:Cesium.Color.RED,          
+          zIndex:  new Cesium.Cartesian3(0, 0, -15000),
+          position: Cesium.Cartesian3.fromDegrees(-115.0, 37.0, 50),
+          color: Cesium.Color.RED,
         }),
         actionType: ActionType.ADD_UPDATE
       }
