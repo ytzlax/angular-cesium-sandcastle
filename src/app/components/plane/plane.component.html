@@ -1,0 +1,8 @@
+<ac-layer acFor="let plane of planes$" [context]="this" [show]="true">
+  <ac-billboard-primitive-desc props="{
+        image:plane.image,
+        position:plane.position,
+        color:plane.color
+    }">
+  </ac-billboard-primitive-desc>
+</ac-layer>
